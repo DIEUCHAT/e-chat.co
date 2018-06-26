@@ -1,5 +1,5 @@
 ***
-# DIEUCHAT
+# E-CHAT
 ***
 
-Based on e-chat.co
+Taken from e-chat.co
