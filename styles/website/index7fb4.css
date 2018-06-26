@@ -1,0 +1,167 @@
+html, body {
+    font-family: arial, helvetica, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+#main-logo {
+    display: block;
+    width: 170px;
+    height: 45px;
+    margin: 50px auto;
+}
+
+.container {
+	margin: 0px auto;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.container.top {
+	width: 400px;
+}
+
+.container.top .label {
+	margin: 10px 0px 30px 0px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.container.mid > div.form {
+	width: 400px;
+	display: inline-block;
+}
+
+.container.mid .header {
+	margin: 2px 0px 20px 0px;
+	height: 27px;
+}
+
+.container.mid .header .form-title {
+    float: left;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container.mid .header .form-switch {
+    margin: 4px 0px auto 10px;
+    cursor: pointer;
+    float: right;
+    color: rgb(59, 89, 152);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container.mid .header .form-switch:hover {
+    text-decoration: underline;
+}
+
+.container.mid .row > div {
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.container.mid .row > div {
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: arial;
+    margin-bottom: 5px;
+}
+
+.container.mid .row > input {
+    width:96%;
+    border: 1px solid rgb(171, 173, 179);
+    padding: 2px 2%;
+    height: 20px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#remember-account {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+#remember-account > label {
+	cursor: pointer;
+}
+
+#remember-account > label > input {
+	cursor: pointer;
+}
+
+.form-submit {
+    display: block;
+    height: 25px;
+    margin: 15px auto;
+    border: 1px solid;
+    border-radius: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    text-decoration:underline; 
+}
+
+.form-submit.guest {
+    color:#000;
+    border-color:rgb(237, 177, 0);
+    background-color:rgb(255, 201, 6);
+}
+
+.form-submit.login {
+    color: #fff;
+    border-color: rgb(171,56,39);
+    background-color: #d14836;
+}
+
+.form-submit.register {
+    color: #fff;
+    border-color: #3b5981;
+    background-color: #4b79A1;
+}
+
+#form-submit-result {
+    color: rgb(255, 40, 40);
+    font-size:14px;
+    margin: 10px 0px;
+    text-align: center;
+}
+    
+#benefits div.fluid-width {
+	display: inline-block;
+}
+
+#benefits div {
+    margin: 25px 0px;
+    text-align: left;
+}
+
+#benefits img {
+    width:20px;
+    height:20px;
+    vertical-align: middle;
+}
+
+#benefits span {
+    font-size:15px;
+    vertical-align: middle;
+}
+   
+.i-block {
+	display: inline-block;
+}
+
+.t-align-center {
+	text-align: center;	
+}
+
+.display-none {
+	display: none;
+}
